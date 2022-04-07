@@ -39,6 +39,8 @@ class Play extends Phaser.Scene {
     update() {
         this.starfield.tilePositionX -= 4;  //the scrolling speed; move 4 horizontal pixels left every frame
         this.p1Rocket.update();
+
+
     
     }
 }
